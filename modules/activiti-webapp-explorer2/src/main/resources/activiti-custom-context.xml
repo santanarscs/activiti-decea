@@ -55,7 +55,7 @@
             <list>
                 <bean class="org.activiti.ldap.LDAPConfigurator">
 
-                    <property name="server" value="ldap://10.32.63.32" />
+                    <property name="server" value="ldap://localhost" />
                     <property name="port" value="389" />
                     <property name="user" value="cn=admin,dc=decea,dc=intraer" />
                     <property name="password" value="roland" />
